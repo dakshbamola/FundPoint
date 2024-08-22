@@ -2,17 +2,20 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://dakshbamola.github.io/fundpoint",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "NODE_OPTIONS='--max-old-space-size=8192' vite build",
     "preview": "vite preview",
-    "deploy": "yarn build && npx thirdweb@latest upload dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^4",
     "@thirdweb-dev/sdk": "^4",
     "dotenv": "^16.4.5",
     "ethers": "^5",
+    "gh-pages": "^6.1.1",
     "react": "^18.2",
     "react-dom": "^18.2",
     "react-router-dom": "^6.23.0"
