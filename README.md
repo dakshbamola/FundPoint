@@ -13,7 +13,6 @@ FundPoint is a blockchain-based crowdfunding web application that allows users t
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Features
