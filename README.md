@@ -1,5 +1,5 @@
 # FundPoint
-
+**Visit site:** https://fundingpoint.netlify.app/
 ## Blockchain-Based Crowdfunding Web App
 
 FundPoint is a blockchain-based crowdfunding web application that allows users to start campaigns or donate to ongoing campaigns using Ethereum. The frontend is built with React and Vite, while the backend utilizes Ethereum and Solidity for smart contracts. MetaMask is integrated for secure transactions, and Thirdweb is used for deploying the smart contract.
